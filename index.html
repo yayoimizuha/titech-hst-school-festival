@@ -29,7 +29,7 @@
     </nav>
 
     <div class="main-content uk-position-relative uk-visible-toggle" tabindex="-1"
-        uk-slideshow="ratio: false; autoplay: true; autoplay-interval: 2000">
+        uk-slideshow="ratio: false; autoplay: false; autoplay-interval: 3000">
         <ul class="uk-slideshow-items" uk-height-viewport="offset-top: true; offset-bottom: 0">
             <li>
                 <div
@@ -51,7 +51,7 @@
             </li>
         </ul>
         <div class=" uk-overlay uk-overlay-default uk-position-bottom  uk-height-small uk-visible@s">
-            <div class="uk-position-relative uk-position-bottom-center uk-position-small uk-padding-large@l">
+            <div class="uk-position-relative uk-position-center uk-position-small uk-padding-large@l">
                 <ul class="uk-dotnav uk-position-relative uk-position-bottom-center">
                     <p></p>
                     <li uk-slideshow-item="0"><a href="#">Item 1</a></li>
@@ -67,8 +67,8 @@
             </div>
 
         </div>
-        <div class=" uk-overlay uk-overlay-default uk-position-bottom-center  uk-height-small uk-hidden@s">
-            <div class="uk-position-relative uk-position-bottom-center uk-position-small uk-padding-large@l">
+        <div class="uk-overlay uk-overlay-default uk-position-small uk-position-bottom-center uk-margin-large-bottom uk-height-small uk-hidden@s">
+            <div class="uk-position-relative uk-position-center uk-position-small uk-padding-large@l">
                 <ul class="uk-dotnav uk-position-relative uk-position-bottom-center">
                     <p></p>
                     <li uk-slideshow-item="0"><a href="#">Item 1</a></li>
@@ -77,10 +77,13 @@
                 </ul>
                 <br>
                 <a id="js-scroll-trigger" class="uk-button" uk-scroll uk-icon="chevron-down" offset="120"
-                    uk-position-medium uk-flex uk-position-center href="#target">
+                    uk-position-medium uk-flex uk-position-top href="#target">
 
                 </a>
 
+                <div uk-sticky>
+                    <p></p>
+                </div>
             </div>
 
         </div>
