@@ -18,13 +18,15 @@
             </a>
         </div>
         <div class="uk-navbar-right uk-visible@s">
-            <button class="uk-button uk-button-primary">当日案内</button>
-            <button class="uk-button uk-button-secondary uk-margin-right uk-margin-left">事前案内</button>
+            <button class="uk-button uk-button-primary" onclick="location.href='/today.html'">当日案内</button>
+            <button class="uk-button uk-button-secondary uk-margin-right uk-margin-left"
+                onclick="location.href='/before.html'">事前案内</button>
         </div>
         <div class="uk-navbar-right uk-hidden@s">
-            <button class="uk-button uk-button-primary" style="line-height: 160%;">当日<br>案内</button>
-            <button class="uk-button uk-button-secondary uk-margin-right uk-margin-left"
-                style="line-height: 160%;">事前<br>案内</button>
+            <button class="uk-button uk-button-primary" style="line-height: 160%;"
+                onclick="location.href='/today.html'">当日<br>案内</button>
+            <button class="uk-button uk-button-secondary uk-margin-right uk-margin-left" style="line-height: 160%;"
+                onclick="location.href='/before.html'">事前<br>案内</button>
         </div>
     </nav>
 
@@ -35,37 +37,30 @@
                 <div class="uk-flex uk-flex-wrap ">
 
                     <div class="uk-width-1-5@l"></div>
-                    <div class="uk-text uk-width-3-5@l">Hello!1
-                        <hr>
+                    <div class="uk-text uk-width-3-5@l">
+                        <ul uk-accordion="multiple: true">
+                            <li class="uk-open">
+                                <a class="uk-accordion-title uk-text-bold uk-text-large" href="#">Item 1</a>
+                                <div class="uk-accordion-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </li>
+                            <li class="uk-open">
+                                <a class="uk-accordion-title uk-text-bold uk-text-large" href="#">Item 2</a>
+                                <div class="uk-accordion-content">
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                </div>
+                            </li>
+                            <li class="uk-open">
+                                <a class="uk-accordion-title uk-text-bold uk-text-large" href="#">Item 3</a>
+                                <div class="uk-accordion-content">
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>  
                     <div class="uk-width-1-5@l"></div>
 
-                    <div class="uk-width-1-5@l"></div>
-                    <div class="uk-text uk-width-3-5@l">Hello!2
-                        <hr>
-                    </div>
-                    <div class="uk-width-1-5@l"></div>
-
-                    <div class="uk-width-1-5@l"></div>
-                    <div class="uk-text uk-width-3-5@l">Hello!3
-                        <hr>
-                    </div>
-                    <div class="uk-width-1-5@l"></div>
-
-                    <div class="uk-width-1-5@l"></div>
-                    <div class="uk-text uk-width-3-5@l">Hello!4
-                        <hr>
-                    </div>
-                    <div class="uk-width-1-5@l"></div>
-
-                    <div class="uk-width-1-5@l"></div>
-                    <div class="uk-text uk-width-3-5@l">Hello!5
-                        <hr>
-                    </div>
-                    <div class="uk-width-1-5@l"></div>
-
-                    <div class="uk-width-1-5@l"></div>
-                    <div class="uk-width-1-5@l"></div>
                 </div>
             </div>
         </div>
