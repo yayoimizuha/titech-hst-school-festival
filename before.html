@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>弟燕祭2021公式サイト</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</head>
+<style>
+    /* uikit.min.css | http://localhost:5500/css/uikit.min.css */
+
+    h1.uk-heading-bullet.today::before {
+        /* border-left: calc(5px + .1em) solid #e5e5e5; */
+        border-left: calc(5px + .1em) solid #f00;
+    }
+
+    h2.uk-heading-bullet.access::before {
+        /* border-left: calc(5px + .1em) solid #e5e5e5; */
+        border-left: calc(5px + .1em) solid rgb(163, 219, 33);
+    }
+</style>
+
+<body>
+    <nav class="uk-navbar uk-navbar-container">
+        <div class="uk-navbar-left">
+            <a href="/index.html" class="uk-navbar-item uk-logo">
+                <img src="logo.svg" width="5%" uk-svg>
+            </a>
+        </div>
+        <div class="uk-navbar-right uk-visible@s">
+            <button class="uk-button uk-button-primary" onclick="location.href='/today.html'">当日案内</button>
+            <button class="uk-button uk-button-secondary uk-margin-right uk-margin-left"
+                onclick="location.href='/before.html'">事前案内</button>
+        </div>
+        <div class="uk-navbar-right uk-hidden@s">
+            <button class="uk-button uk-button-primary" style="line-height: 160%;"
+                onclick="location.href='/today.html'">当日<br>案内</button>
+            <button class="uk-button uk-button-secondary uk-margin-right uk-margin-left" style="line-height: 160%;"
+                onclick="location.href='/before.html'">事前<br>案内</button>
+        </div>
+    </nav>
+
+    <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center uk-flex-center" uk-grid id="target">
+        <div class="uk-background-muted uk-padding  uk-position-relative uk-text-left uk-text-large"
+            uk-height-viewport="expand: true">
+            <div>
+                <div class="uk-flex uk-flex-wrap ">
+
+                    <div class="uk-width-expand@l"></div>
+                    <div class="uk-text uk-width-5-6@l">
+                        <div class="uk-card uk-card-default uk-card-body uk-width-expand">
+                            <h1 class="uk-heading-bullet today">
+                                当日案内
+                            </h1>
+                            <h2 class="uk-heading-bullet access">
+                                アクセス
+                            </h2>
+
+
+                        </div>
+                    </div>
+                    <div class="uk-width-expand@l"></div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>
