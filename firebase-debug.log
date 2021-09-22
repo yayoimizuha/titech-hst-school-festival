@@ -1,0 +1,23 @@
+[debug] [2021-09-22T00:47:14.368Z] ----------------------------------------------------------------------
+[debug] [2021-09-22T00:47:14.377Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pokop\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login:ci
+[debug] [2021-09-22T00:47:14.379Z] CLI Version:   9.5.0
+[debug] [2021-09-22T00:47:14.379Z] Platform:      win32
+[debug] [2021-09-22T00:47:14.379Z] Node Version:  v12.19.0
+[debug] [2021-09-22T00:47:14.383Z] Time:          Wed Sep 22 2021 09:47:14 GMT+0900 (GMT+09:00)
+[debug] [2021-09-22T00:47:14.384Z] ----------------------------------------------------------------------
+[debug] [2021-09-22T00:47:14.385Z] 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=822747247&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-09-22T00:50:29.946Z] ----------------------------------------------------------------------
+[debug] [2021-09-22T00:50:29.957Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pokop\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2021-09-22T00:50:29.958Z] CLI Version:   9.5.0
+[debug] [2021-09-22T00:50:29.959Z] Platform:      win32
+[debug] [2021-09-22T00:50:29.959Z] Node Version:  v12.19.0
+[debug] [2021-09-22T00:50:29.963Z] Time:          Wed Sep 22 2021 09:50:29 GMT+0900 (GMT+09:00)
+[debug] [2021-09-22T00:50:29.964Z] ----------------------------------------------------------------------
+[debug] [2021-09-22T00:50:29.965Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 

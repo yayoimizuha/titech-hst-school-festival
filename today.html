@@ -17,6 +17,11 @@
         border-left: calc(5px + .1em) solid #f00;
     }
 
+    h1.uk-heading-bullet.map::before {
+        /* border-left: calc(5px + .1em) solid #e5e5e5; */
+        border-left: calc(5px + .1em) solid rgba(131, 94, 16, 0.705);
+    }
+
     .JR::before {
         border-left: calc(5px + .1em) solid #9c0;
     }
@@ -36,17 +41,6 @@
             <a href="/index.html" class="uk-navbar-item uk-logo">
                 <img src="logo.svg" width="5%" uk-svg>
             </a>
-        </div>
-        <div class="uk-navbar-right uk-visible@s">
-            <button class="uk-button uk-button-primary" onclick="location.href='/today.html'">当日案内</button>
-            <button class="uk-button uk-button-secondary uk-margin-right uk-margin-left"
-                onclick="location.href='/before.html'">事前案内</button>
-        </div>
-        <div class="uk-navbar-right uk-hidden@s">
-            <button class="uk-button uk-button-primary" style="line-height: 160%;"
-                onclick="location.href='/today.html'">当日<br>案内</button>
-            <button class="uk-button uk-button-secondary uk-margin-right uk-margin-left" style="line-height: 160%;"
-                onclick="location.href='/before.html'">事前<br>案内</button>
         </div>
     </nav>
 
@@ -102,11 +96,13 @@
                     <div class="uk-width-expand@l"></div>
                     <div class="uk-text  uk-width-5-6@l">
                         <div class="uk-card uk-card-default uk-card-body uk-width-expand">
-                            <h1 class="uk-heading-bullet access">
-                                Google Map
+                            <h1 class="uk-heading-bullet map">
+                                Google Maps
                             </h1>
                             <div uk-lightbox class="uk-position-center uk-position-relative uk-padding">
-                            <a class="uk-button uk-button-default" href="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJIRs_gLOLGGARlf0VnqdUjyE&key=AIzaSyAXDOeTX2kSGAMs_Gs3zVqkiiUQblgWeTk" data-caption="Google Maps" data-type="iframe">Google Maps</a>
+                                <a class="uk-button uk-button-default"
+                                    href="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJIRs_gLOLGGARlf0VnqdUjyE&key=AIzaSyAXDOeTX2kSGAMs_Gs3zVqkiiUQblgWeTk"
+                                    data-caption="Google Maps" data-type="iframe">Google Maps</a>
                             </div>
                         </div>
                     </div>
